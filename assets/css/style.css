@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('//db.onlinewebfonts.com/c/f018489f0ca9a68790219a839d630c64?family=Aquire');
+
+html {
+    min-height: 100%;
+}
+
+html::-webkit-scrollbar {
+    width: .8rem;
+  }
+  
+  html::-webkit-scrollbar-track {
+    background: rgb(0, 0, 0);
+  }
+  
+  html::-webkit-scrollbar-thumb {
+    background: #808080;
+    border-radius: 5rem;
+  }
+
+body {
+    color:#d7d7d7;
+    font-family: 'Poppins';
+    background: #808080;
+}
+
+section {
+    position: relative;
+}
+
+#login-title,
+#btnLogin {
+    font-family: 'Aquire', sans-serif;
+    font-weight: 700;
+}
+
+#index-container {
+    width: 360px;
+    padding: 30px 0 0;
+    margin: auto;
+}
+
+#login-form {
+    position: relative;
+    z-index: 1;
+    width: 360px;
+    height: 600px;
+    margin: auto;
+    padding: 45px;
+    text-align: center;
+
+    border-radius: 50px;
+    background: #808080;
+    box-shadow:  5px 5px 10px #606060,
+                -5px -5px 10px #a0a0a0;
+}
+
+.login-form-top {
+    padding-bottom: 15px;
+    width: 100%;
+    height: 50%;
+}
+
+.form-group {
+    padding-bottom: 10px;
+}
+
+.form-control {
+    width: 270px;
+    height: 40px;
+    margin: 4px 0;
+    padding-left: 25px;
+    font-size: 13px;
+    letter-spacing: 0.15px;
+    border: none;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #808080;
+    transition: 0.25s ease;
+    border-radius: 8px;
+    box-shadow: inset 2px 2px 4px #606060, inset -2px -2px 4px #a0a0a0; 
+}
+
+.form-control:focus {
+    background-color: #808080;
+    box-shadow: inset 4px 4px 4px #606060, inset -4px -4px 4px #a0a0a0;
+}
+
+#txtUsername,
+#txtPassword,
+#btnLogin {
+    border-radius: 50px;
+}
+
+input[type=text],
+input[type=password] {
+    font-family: 'Poppins';                                 
+}
+
+.form-control::placeholder {
+    color:#d7d7d7;
+    opacity: 1;    
+}
+
+.form-control {
+    caret-color: #d7d7d7;
+}
+
+#btnLogin {
+    border: none;
+    box-shadow:  5px 5px 10px #606060, -5px -5px 10px #a0a0a0;
+    background-color: #808080;
+    color: #d7d7d7;
+}
+
+#btnLogin:active {
+    opacity: 1;
+	box-shadow: inset 5px 5px 10px #606060,
+            inset -5px -5px 10px #a0a0a0;
+    color: #d7d7d7;
+}
+
+.error {
+    background: #F2DEDE;
+    color: #A94442;
+    padding: 10px;
+    width: 100%;
+    border-radius: 50px;
+}
+
+#landing-page-body {
+    margin: 0;
+    padding: 0px;
+    height: 100vh;
+}
+
+#navbar {
+    background: transparent !important;
+    padding: 10px 0px;
+
+}
+
+.nav-text {
+    color: #d7d7d7;
+    font-family: 'Aquire', sans-serif;                                               
+}
+
+.navbar-brand {
+    padding: 0 0 13px 0;
+}
+
+.container-fluid > .nav-text:hover {
+    color: white;   
+}
+
+.nav-item > .active {
+    background: transparent !important;
+}
+
+.nav-item > .nav-text:hover {
+    color: white;   
+}
+
+.dropdown-menu {
+    background: #4C4B50 !important;
+}
+
+#homepage {
+    padding: 0px 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#intro-landing {
+    background: url('../images/bg.jpg');
+    background-size: cover;
+    margin: 0;
+    padding: 0px 100px;
+    height: 100vh;
+}
+
+#intro-home {
+    font-family: 'Aquire', sans-serif;
+    color: #0E1111;
+}
+
+#intro-home h1 {
+    font-weight: 700;
+}
+
+.carousel-item {
+    height: 100vh;
+}
+
+.container-fluid {
+    padding: 0px;
+}
+
+.carousel-item img {
+    filter: brightness(50%);
+}
+
+#footer-text {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    background-color: #262729;
+}
+
+#footer-text h3, h4 {
+    font-family: 'Aquire', sans-serif;
+}
+
+.carousel-caption {
+    font-family: 'Aquire', sans-serif;
+    color: #bdbcbc;
+}
+
+.description {
+    padding: 250px 250px;
+    background: transparent;
+    color: #d7d7d7;
+    font-family: 'Aquire', sans-serif;
+}
+
+.description h1 {
+    font-weight: 700;
+}
+
+#gumiho {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/gumiho.jpg');
+    background-size: cover;
+    margin: 0;
+    padding: 0px 100px;
+    height: 100vh;
+}
+
+.double-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+}
+
+#location {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/contact.jpg');
+    background-size: cover;
+    display: block;
+    height: 90vh;
+}
+
+#location h1 {
+    padding-top: 40vh;
+    font-family: 'Aquire', sans-serif;
+}
+
+#frequency {
+    padding: 100px 250px;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/frequency-bg.jpg');
+    background-size: cover;
+}
+
+.description img {
+    vertical-align: middle;
+    display: inline-block;
+    max-width: 100%;
+}
