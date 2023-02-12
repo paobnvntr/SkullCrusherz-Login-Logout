@@ -1,7 +1,7 @@
 <?php
     global $mysqli;
     
-    $mysqli = new mysqli("localhost", "root", "paolo19", "webdevdb");
+    $mysqli = new mysqli("localhost", "root", "", "dbname");
 
     // Check connection
     if ($mysqli->connect_errno) {
