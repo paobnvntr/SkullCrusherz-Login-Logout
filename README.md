@@ -1,5 +1,17 @@
 # SkullCrusherz Login-Logout
-##### This is a Basic Login Form &amp; Logout in PHP with Session and MySQL. 
+##### This is a Basic Login Form &amp; Logout in PHP with Session and MySQL.
+
+##### DATABASE SETUP:
+1. Open XAMMP Control Panel. Start Apache and MySQL
+2. Download the skullcrusherz_db database file in the database folder
+3. Open [PHPMyAdmin](http://localhost/phpmyadmin/) on your browser
+4. Create a database
+5. Upload the skullcrusherz_db database file
+6. Open database/conn.php
+7. Update the password & dbname
+
+##### USERS
+Username & Password: admin
 
 ![login-page](https://user-images.githubusercontent.com/95178829/211765415-0c851b83-8256-4c0a-93ee-95d112673123.png)
 When the user submits the login form, the script checks if the entered username and password match any records in the "users" table of the MySQL database. 
