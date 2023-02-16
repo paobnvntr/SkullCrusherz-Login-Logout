@@ -1,7 +1,7 @@
 <?php
     global $mysqli;
     
-    $mysqli = new mysqli("localhost", "root", "", "dbname");
+    $mysqli = new mysqli("localhost", "root", "", "skullcrusherz_db");
 
     // Check connection
     if ($mysqli->connect_errno) {
